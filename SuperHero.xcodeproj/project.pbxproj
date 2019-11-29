@@ -14,6 +14,16 @@
 		57673DC523908E7E00D70897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57673DC423908E7E00D70897 /* Assets.xcassets */; };
 		57673DC823908E7E00D70897 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57673DC723908E7E00D70897 /* Preview Assets.xcassets */; };
 		57673DCB23908E7E00D70897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57673DC923908E7E00D70897 /* LaunchScreen.storyboard */; };
+		57673DD423908F6700D70897 /* SuperHeroItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57673DD323908F6700D70897 /* SuperHeroItem.swift */; };
+		57673DD72390915100D70897 /* SuperHeroItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57673DD62390915100D70897 /* SuperHeroItemView.swift */; };
+		57673DD9239092A200D70897 /* AboutSuperHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57673DD8239092A200D70897 /* AboutSuperHeroView.swift */; };
+		57673DDB2390933300D70897 /* AddNewSuperHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57673DDA2390933300D70897 /* AddNewSuperHeroView.swift */; };
+		57673DDF2390940E00D70897 /* SuperHeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57673DDE2390940E00D70897 /* SuperHeroViewModel.swift */; };
+		57673DE12390949400D70897 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57673DE02390949400D70897 /* SuperHero.swift */; };
+		57673DE3239095CE00D70897 /* SuperHeroSelectedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57673DE2239095CE00D70897 /* SuperHeroSelectedViewModel.swift */; };
+		57673DE5239095F800D70897 /* SuperHeroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57673DE4239095F800D70897 /* SuperHeroService.swift */; };
+		57673DE72390A1D600D70897 /* icons8-batman-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 57673DE62390A1D600D70897 /* icons8-batman-120.png */; };
+		57673DE92390A34A00D70897 /* icons8-batman-120-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57673DE82390A34900D70897 /* icons8-batman-120-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,16 @@
 		57673DC723908E7E00D70897 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57673DCA23908E7E00D70897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57673DCC23908E7E00D70897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57673DD323908F6700D70897 /* SuperHeroItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroItem.swift; sourceTree = "<group>"; };
+		57673DD62390915100D70897 /* SuperHeroItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroItemView.swift; sourceTree = "<group>"; };
+		57673DD8239092A200D70897 /* AboutSuperHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSuperHeroView.swift; sourceTree = "<group>"; };
+		57673DDA2390933300D70897 /* AddNewSuperHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewSuperHeroView.swift; sourceTree = "<group>"; };
+		57673DDE2390940E00D70897 /* SuperHeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViewModel.swift; sourceTree = "<group>"; };
+		57673DE02390949400D70897 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		57673DE2239095CE00D70897 /* SuperHeroSelectedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroSelectedViewModel.swift; sourceTree = "<group>"; };
+		57673DE4239095F800D70897 /* SuperHeroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroService.swift; sourceTree = "<group>"; };
+		57673DE62390A1D600D70897 /* icons8-batman-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-batman-120.png"; path = "../../../Downloads/icons8-batman-120.png"; sourceTree = "<group>"; };
+		57673DE82390A34900D70897 /* icons8-batman-120-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-batman-120-2.png"; path = "../../../Downloads/icons8-batman-120-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +78,17 @@
 		57673DBA23908E7C00D70897 /* SuperHero */ = {
 			isa = PBXGroup;
 			children = (
+				57673DDD239093DB00D70897 /* Services */,
+				57673DDC239093D400D70897 /* ViewModels */,
+				57673DD52390913200D70897 /* Views */,
+				57673DD223908F4C00D70897 /* Models */,
 				57673DBB23908E7C00D70897 /* AppDelegate.swift */,
 				57673DBD23908E7C00D70897 /* SceneDelegate.swift */,
-				57673DC223908E7C00D70897 /* ContentView.swift */,
 				57673DC423908E7E00D70897 /* Assets.xcassets */,
 				57673DC923908E7E00D70897 /* LaunchScreen.storyboard */,
 				57673DCC23908E7E00D70897 /* Info.plist */,
+				57673DE82390A34900D70897 /* icons8-batman-120-2.png */,
+				57673DE62390A1D600D70897 /* icons8-batman-120.png */,
 				57673DBF23908E7C00D70897 /* SuperHero.xcdatamodeld */,
 				57673DC623908E7E00D70897 /* Preview Content */,
 			);
@@ -76,6 +101,43 @@
 				57673DC723908E7E00D70897 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57673DD223908F4C00D70897 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57673DD323908F6700D70897 /* SuperHeroItem.swift */,
+				57673DE02390949400D70897 /* SuperHero.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57673DD52390913200D70897 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57673DC223908E7C00D70897 /* ContentView.swift */,
+				57673DD62390915100D70897 /* SuperHeroItemView.swift */,
+				57673DD8239092A200D70897 /* AboutSuperHeroView.swift */,
+				57673DDA2390933300D70897 /* AddNewSuperHeroView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57673DDC239093D400D70897 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				57673DDE2390940E00D70897 /* SuperHeroViewModel.swift */,
+				57673DE2239095CE00D70897 /* SuperHeroSelectedViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		57673DDD239093DB00D70897 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				57673DE4239095F800D70897 /* SuperHeroService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57673DE92390A34A00D70897 /* icons8-batman-120-2.png in Resources */,
+				57673DE72390A1D600D70897 /* icons8-batman-120.png in Resources */,
 				57673DCB23908E7E00D70897 /* LaunchScreen.storyboard in Resources */,
 				57673DC823908E7E00D70897 /* Preview Assets.xcassets in Resources */,
 				57673DC523908E7E00D70897 /* Assets.xcassets in Resources */,
@@ -149,10 +213,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57673DD423908F6700D70897 /* SuperHeroItem.swift in Sources */,
+				57673DD72390915100D70897 /* SuperHeroItemView.swift in Sources */,
 				57673DBC23908E7C00D70897 /* AppDelegate.swift in Sources */,
+				57673DDF2390940E00D70897 /* SuperHeroViewModel.swift in Sources */,
 				57673DBE23908E7C00D70897 /* SceneDelegate.swift in Sources */,
+				57673DE12390949400D70897 /* SuperHero.swift in Sources */,
 				57673DC323908E7C00D70897 /* ContentView.swift in Sources */,
 				57673DC123908E7C00D70897 /* SuperHero.xcdatamodeld in Sources */,
+				57673DE3239095CE00D70897 /* SuperHeroSelectedViewModel.swift in Sources */,
+				57673DD9239092A200D70897 /* AboutSuperHeroView.swift in Sources */,
+				57673DDB2390933300D70897 /* AddNewSuperHeroView.swift in Sources */,
+				57673DE5239095F800D70897 /* SuperHeroService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
