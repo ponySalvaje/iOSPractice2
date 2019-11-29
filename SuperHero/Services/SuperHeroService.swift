@@ -35,6 +35,9 @@ class SuperHeroService {
                 superhero.id = Int(json["id"] as! String) ?? 0
                 superhero.name = json["name"] as! String
                 
+                let image = json["image"] as! [String: Any]
+                superhero.imageURL = image["url"] as! String
+                
                 print(superhero)
                 DispatchQueue.main.async {
                     completion(superhero)

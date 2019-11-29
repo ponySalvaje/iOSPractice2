@@ -13,12 +13,14 @@ struct SuperHero: Codable {
     var id: Int
     var mention: String
     var name: String
+    var imageURL: String
   
     init() {
         createdAt = Date()
         id = 0
         mention = ""
         name = ""
+        imageURL = ""
     }
     
     init(superhero:SuperHeroItem) {
@@ -26,5 +28,6 @@ struct SuperHero: Codable {
         self.id = superhero.id as! Int ?? 0
         self.mention = superhero.mention!
         self.name = superhero.name!
+        self.imageURL = superhero.imageURL!
     }
 }

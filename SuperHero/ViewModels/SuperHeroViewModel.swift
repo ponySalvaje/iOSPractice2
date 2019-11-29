@@ -26,4 +26,7 @@ struct SuperHeroViewModel: Identifiable {
     var name: String {
         return self.superHero.name
     }
+    var imageURL: String {
+        return self.superHero.imageURL
+    }
 }

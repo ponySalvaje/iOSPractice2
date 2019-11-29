@@ -23,6 +23,15 @@ struct ContentView: View {
                         NavigationLink(destination: AboutSuperHeroView(superHero: SuperHeroViewModel(superHero: SuperHero(superhero: superheroItem)))){
                             SuperHeroItemView(superhero: superheroItem)
                         }
+                    }.onDelete { indexSet in
+                        let deleteItem = self.superHeroItems[indexSet.first!]
+                        self.managedObjectContext.delete(deleteItem)
+                        
+                        do {
+                            try self.managedObjectContext.save()
+                        } catch {
+                            print(error)
+                        }
                     }
                 }
             }.navigationBarTitle(Text("My Super Heroes"))

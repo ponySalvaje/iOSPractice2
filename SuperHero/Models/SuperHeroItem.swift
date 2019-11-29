@@ -14,6 +14,7 @@ public class SuperHeroItem:NSManagedObject, Identifiable {
     @NSManaged public var id:NSNumber?
     @NSManaged public var mention:String?
     @NSManaged public var name:String?
+    @NSManaged public var imageURL:String?
 }
 
 extension SuperHeroItem {

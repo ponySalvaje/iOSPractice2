@@ -24,6 +24,7 @@
 		57673DE5239095F800D70897 /* SuperHeroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57673DE4239095F800D70897 /* SuperHeroService.swift */; };
 		57673DE72390A1D600D70897 /* icons8-batman-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 57673DE62390A1D600D70897 /* icons8-batman-120.png */; };
 		57673DE92390A34A00D70897 /* icons8-batman-120-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57673DE82390A34900D70897 /* icons8-batman-120-2.png */; };
+		57673DEB2390D7E600D70897 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57673DEA2390D7E600D70897 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		57673DE4239095F800D70897 /* SuperHeroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroService.swift; sourceTree = "<group>"; };
 		57673DE62390A1D600D70897 /* icons8-batman-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-batman-120.png"; path = "../../../Downloads/icons8-batman-120.png"; sourceTree = "<group>"; };
 		57673DE82390A34900D70897 /* icons8-batman-120-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-batman-120-2.png"; path = "../../../Downloads/icons8-batman-120-2.png"; sourceTree = "<group>"; };
+		57673DEA2390D7E600D70897 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				57673DD62390915100D70897 /* SuperHeroItemView.swift */,
 				57673DD8239092A200D70897 /* AboutSuperHeroView.swift */,
 				57673DDA2390933300D70897 /* AddNewSuperHeroView.swift */,
+				57673DEA2390D7E600D70897 /* ImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				57673DD72390915100D70897 /* SuperHeroItemView.swift in Sources */,
 				57673DBC23908E7C00D70897 /* AppDelegate.swift in Sources */,
 				57673DDF2390940E00D70897 /* SuperHeroViewModel.swift in Sources */,
+				57673DEB2390D7E600D70897 /* ImageView.swift in Sources */,
 				57673DBE23908E7C00D70897 /* SceneDelegate.swift in Sources */,
 				57673DE12390949400D70897 /* SuperHero.swift in Sources */,
 				57673DC323908E7C00D70897 /* ContentView.swift in Sources */,

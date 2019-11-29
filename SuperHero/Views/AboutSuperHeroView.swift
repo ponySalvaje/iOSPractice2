@@ -14,7 +14,8 @@ struct AboutSuperHeroView: View {
     var body: some View {
         NavigationView {
           VStack(alignment: .leading) {
-            Spacer()
+            // Spacer()
+            ImageView(withURL: superHero.imageURL)
             HStack(alignment: .top) {
               Text("Super Hero Id: ").bold()
               Text("\(superHero.id)")
